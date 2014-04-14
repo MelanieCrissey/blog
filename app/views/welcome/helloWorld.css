@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
 <style>
 body {
 	background-color: #505050;
@@ -21,11 +18,3 @@ p {
 	font-family: Helvetica, sans-serif;
 }
 </style>
-</head>
-<body>
-<div id="world">
-	<h1>Hello, World!</h1>
-	<p>Find me in app/views/welcome/index.html.erb</p>
-</div>
-</body>
-</html>

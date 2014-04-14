@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+# Include PostGresSQL code in production
+group :production do 
+	gem 'pg'
+end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
