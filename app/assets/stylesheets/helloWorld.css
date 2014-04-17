@@ -8,6 +8,9 @@ body {
 	width: 320px;
 	margin-top: 50px;
 }
+#profilePicture {
+			width: 250px;
+		}
 h1 {
 	color: #fff;
 	font-family: Georgia, serif;
@@ -15,4 +18,8 @@ h1 {
 p {
 	color: #fff;
 	font-family: Helvetica, sans-serif;
+}
+ul {
+	color: #fff;
+	list-style-type: disc;
 }
