@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
   get "/", to: "welcome#index"
   root "welcome#index"
-  get "sitemap.xml"
+  get "sitemap/index"
   get "welcome/index"
   get "aboutme/index"
   get "news/index"
