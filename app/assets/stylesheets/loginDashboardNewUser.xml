@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://demo.vpsgateway.com/merchant/selfcare/" />
+<title>New Test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">New Test</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/merchant/selfcare/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=merchantid</td>
+	<td>3201</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=username</td>
+	<td>noc</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=password</td>
+	<td>Subarufa20</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Dashboard</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=User Setup</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=newusername</td>
+	<td>noctest</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=newpassword</td>
+	<td>noctest</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=confirmnewpassword</td>
+	<td>noctest2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=ownpassword</td>
+	<td>noctest</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=tid</td>
+	<td>label=3201002</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=Add</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertAlert</td>
+	<td>Your password is invalid. It must contain both numbers and letters.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=New</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
