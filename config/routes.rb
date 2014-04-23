@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
 
-  get 'gallery/index'
-
   get "/", to: "welcome#index"
   root "welcome#index"
   get "sitemap/index"
@@ -10,6 +8,7 @@ Rails.application.routes.draw do
   get "news/index"
   get "resume/index"
   get "work/index"
+  get "gallery/index"
 
 
   # The priority is based upon order of creation: first created -> highest priority.
