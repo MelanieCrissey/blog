@@ -1,6 +1,17 @@
-<h1>Gallery#index</h1>
-<img src="/assets/alanandmelanie.jpg"/>
-<img src="/assets/oldgregg.jpg"/>
-<img src="/assets/melaniewordcamp.jpg"/>
-<img src="/assets/christmasparty.jpg"/>
+<style>
+img {width: 300px;
+}
+ul {
+list-style: none;
+}
 
+</style>
+
+<h1>Gallery#index</h1>
+
+<ul>
+<% array = [ "alanandmelanie", "oldgregg", "melaniewordcamp", "christmasparty"].each do |value| %>
+<li><img src="/assets/<%=value%>.jpg"/></li>
+<% end %>
+
+</ul>
