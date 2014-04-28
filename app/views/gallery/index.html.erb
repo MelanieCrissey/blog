@@ -9,9 +9,8 @@ list-style: none;
 
 <h1>Gallery#index</h1>
 
-<ul>
-<% array = [ "alanandmelanie", "oldgregg", "melaniewordcamp", "christmasparty"].each do |value| %>
-<li><img src="/assets/<%=value%>.jpg"/></li>
+<div>
+<% @images_names.each do |value| %>
+<%= image_tag(value + '.jpg')%>
 <% end %>
-
-</ul>
+</div>
