@@ -11,6 +11,12 @@ body {
 #profilePicture {
 			width: 250px;
 		}
+
+#counter {
+	width: 100%;
+	color: #666;
+	font-family: Helvetica, sans-serif;
+}
 h1 {
 	color: #666;
 	font-family: Georgia, serif;
