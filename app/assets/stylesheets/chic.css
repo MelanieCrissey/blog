@@ -17,6 +17,16 @@ div {
 	width: 100%;
 }
 
+div.post {
+	width: 234px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+div.post > a {
+		display: block;
+}
+
 a {
 	text-decoration: none;
 	color: #666;
