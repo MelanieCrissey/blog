@@ -12,11 +12,9 @@
 .nav li {
 	display: inline;
 	padding: 10px;
-}
-
-.nav li > a {
 	color: #333;
 }
+
 
 div {
 	width: 100%;
@@ -30,18 +28,21 @@ div.post {
 }
 div.post > a {
 		display: block;
+		color: #3C9DD0;
 }
 
-a {
+a, a:visited {
 	text-decoration: none;
 	font-family: 'Open Sans', sans-serif;
 	padding-bottom: 2px;
-	color: #3C9DD0;
+	color: #333;
+}
+a:hover {
+	border-bottom: 2px solid #FF3900;
 }
 
 a.selected {
 	 border-bottom: 3px solid #A62500;
-	 color: #333;
 }
 
 body {
@@ -62,4 +63,11 @@ ul {
 	color: #333;
 	list-style-type: none;
 	font-family: 'Open Sans', sans-serif;
+}
+
+@media only screen 
+and (max-width : 320px) {
+	body {
+		max-width: 304px;
+	}
 }
