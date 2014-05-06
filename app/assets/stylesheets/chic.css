@@ -10,6 +10,7 @@
 
 .nav li {
 	display: inline;
+	padding: 6px;
 }
 
 div {
@@ -20,6 +21,11 @@ a {
 	text-decoration: none;
 	color: #666;
 	font-family: Helvetica, sans-serif;
+	padding-bottom: 2px;
+}
+
+a.selected {
+	 border-bottom: 3px solid #A62500;
 }
 
 body {
