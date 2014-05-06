@@ -1,0 +1,9 @@
+<div class="form">
+	<%= form_tag("/login") do %>
+	<%= label_tag(:first_name, "What's your name?") %>
+	<%= text_field_tag(:first_name) %>
+	<%= label_tag(:password, "What's the secret password?") %>
+	<%= text_field_tag(:password) %>
+	<%= submit_tag("Submit") %>
+	<% end %>
+</div>

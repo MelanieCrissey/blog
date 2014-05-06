@@ -9,6 +9,10 @@ Rails.application.routes.draw do
   get "resume/index"
   get "work/index"
   get "gallery/index"
+  get "admin/index"
+
+  post "contact", to: 'welcome#contact'
+  post "login", to: 'welcome#login'
 
 
   # The priority is based upon order of creation: first created -> highest priority.

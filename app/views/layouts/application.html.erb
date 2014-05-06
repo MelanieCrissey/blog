@@ -1,18 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Melanie-land</title>
+  <title>Melanie Crissey</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+<% if @admin == true %>
+  <p>You're in the club.</p>
+<% end %>
 
+<% if @admin == false %>
+  <p>Nope, nope, nope.</p>
+<% end %>
 <%= yield %>
+<% 
+def increment_counter
+  if session[:counter].nil?
+    session[:counter] = 0
+  end
+  session[:counter] += 1
+end
+@count = increment_counter
+@counter_message = "You have been here #{@count} times."
+%>
 
-
-<div id='counter'>
-You have been here x times!
+<div id="counter">
+<p>
+<%= @counter_message %>
+</p>
 </div>
+
+
 </body>
 </html>
