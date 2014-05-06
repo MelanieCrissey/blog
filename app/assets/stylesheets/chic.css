@@ -15,6 +15,11 @@
 	color: #333;
 }
 
+@media only screen and (max-width : 320px) {
+	.nav li {display: block;
+	}
+}
+
 
 div {
 	width: 100%;
@@ -49,11 +54,21 @@ body {
 	background-color: #fff;
 }
 
+@media only screen and (max-width : 320px) {
+	body {max-width: 300px;
+	}
+}
+
+
 h1 {
 	color: #333;
 	font-family: 'Playfair Display';
 	font-size: 40px;
 	font-weight: bold;
+}
+
+@media only screen and (max-width : 320px) {
+	h1 {font-size: 38px;}
 }
 p {
 	color: #333;
@@ -63,11 +78,4 @@ ul {
 	color: #333;
 	list-style-type: none;
 	font-family: 'Open Sans', sans-serif;
-}
-
-@media only screen 
-and (max-width : 320px) {
-	body {
-		max-width: 304px;
-	}
 }
