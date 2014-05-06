@@ -7,14 +7,9 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<% if @admin == true %>
-  <p>You're in the club.</p>
-<% end %>
-
-<% if @admin == false %>
-  <p>Nope, nope, nope.</p>
-<% end %>
 <%= yield %>
+
+<!--Commenting out counter
 <% 
 def increment_counter
   if session[:counter].nil?
@@ -26,11 +21,14 @@ end
 @counter_message = "You have been here #{@count} times."
 %>
 
+
 <div class="counter">
 <p>
 <%= @counter_message %>
 </p>
 </div>
+
+//-->
 
 
 </body>
