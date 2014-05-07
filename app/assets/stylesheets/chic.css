@@ -23,11 +23,6 @@
 	border-bottom: 3px solid #FF3900;
 }
 
-@media only screen and (max-width : 320px) {
-	.nav li {display: block;
-	}
-}
-
 a {
 	text-decoration: none;
 	color: #086CA2;
@@ -62,12 +57,6 @@ body {
 	background-color: #fff;
 }
 
-@media only screen and (max-width : 320px) {
-	body {max-width: 300px;
-	}
-}
-
-
 h1 {
 	color: #333;
 	font-family: 'Playfair Display', serif;
@@ -82,12 +71,6 @@ h2 {
 	text-align: center;
 }
 
-@media only screen and (max-width : 320px) {
-	h1 {font-size: 36px;}
-}
-@media only screen and (max-width : 320px) {
-	h2 {font-size: 20px;}
-}
 p {
 	color: #333;
 	font-family: 'Avenir', sans-serif;
@@ -103,4 +86,12 @@ ul {
 
 .show {
 	display: block;
+}
+
+@media only screen and (max-width : 320px) {
+	h1 {font-size: 36px;}
+	h2 {font-size: 20px;}
+	body {max-width: 300px;}
+	div.post {padding: 5px;}
+	.nav li {display: block;}
 }
