@@ -85,14 +85,17 @@ h2 {
 @media only screen and (max-width : 320px) {
 	h1 {font-size: 36px;}
 }
+@media only screen and (max-width : 320px) {
+	h2 {font-size: 20px;}
+}
 p {
 	color: #333;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Avenir', sans-serif;
 }
 ul {
 	color: #333;
 	list-style-type: none;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Avenir', sans-serif;
 }
 .tab-content {
 	display: none;
