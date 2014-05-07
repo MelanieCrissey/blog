@@ -13,11 +13,15 @@
 	display: inline;
 	padding: 10px;
 	color: #333;
+	font-family: 'Puritan', sans-serif;
+}
+
+.nav a:hover, .tab:hover {
+	border-bottom: 3px solid #FF3900;
 }
 
 @media only screen and (max-width : 320px) {
 	.nav li {display: block;
-		padding: 6px;
 	}
 }
 
@@ -27,10 +31,11 @@ div {
 }
 
 div.post {
-	width: 234px;
+	max-width: 320px;
 	text-align: left;
 	margin-left: auto;
 	margin-right: auto;
+
 }
 div.post > a {
 		display: block;
@@ -39,12 +44,8 @@ div.post > a {
 
 a, a:visited {
 	text-decoration: none;
-	font-family: 'Open Sans', sans-serif;
 	padding-bottom: 2px;
 	color: #333;
-}
-a:hover {
-	border-bottom: 2px solid #FF3900;
 }
 
 a.selected {
@@ -63,9 +64,16 @@ body {
 
 h1 {
 	color: #333;
-	font-family: 'Playfair Display';
+	font-family: 'Playfair Display', serif;
 	font-size: 40px;
 	font-weight: bold;
+}
+
+h2 {
+	color: #333;
+	font-family: 'Playfair Display', serif;
+	font-size: 24px;
+	text-align: center;
 }
 
 @media only screen and (max-width : 320px) {
@@ -73,10 +81,17 @@ h1 {
 }
 p {
 	color: #333;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Puritan', sans-serif;
 }
 ul {
 	color: #333;
 	list-style-type: none;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Puritan', sans-serif;
+}
+.tab-content {
+	display: none;
+}
+
+.show {
+	display: block;
 }

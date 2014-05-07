@@ -1,3 +1,48 @@
+<script>
+$(function () {
+    $('.tab').on('click', function(vent) {
+    	vent.preventDefault();
+    	var tabContent = $(this).attr('href');
+    	$(tabContent).addClass('show').siblings().removeClass('show');
+    	$(this).addClass('selected').siblings().removeClass('selected');
+    });
+
+});
+</script>
+
 <div class="post">
-<a href="https://twitter.com/MelanieCrissey">Twitter</a>
-</div>
+	<h2><a class="tab selected" href="#personally">Personally</a> / <a class="tab" href="#professionally">Professionally</a></h2>
+	<div class="tab-content show" id="personally">
+		<p>
+			Hi, I'm Melanie and I love telling stories.
+		</p>
+		<p>
+			I live in swell Southern town with my man-friend and two sweet, old dogs.
+		</p>
+		<p>
+			My friends and I founded the Marietta Tribune to promote people and businesses in our neighborhood.
+		</p>
+		<p>
+			I enjoy good food, good music, and good company. I like my wine dry, my beer bitter, and my whiskey neat. 
+		</p>
+		<p>
+			My mother named me after a pale-faced, mealy-mouted ninny.
+		</p>
+	</div>
+	<div class="tab-content" id="professionally">
+		<p>
+			Hi, I'm Melanie and I love learning new things.
+		</p>
+		<p>
+			I work with Rigor in the Atlanta Tech Village.
+		</p>
+		<p>
+			My friends and I founded a Startup Chicks circle.
+		</p>
+		<p>
+			I enjoy working with HTML, CSS, Javascript, and Ruby on Rails.
+		</p>
+		<p>
+			When I grow up I want to be an entreprenuer.
+		</p>
+	</div>
