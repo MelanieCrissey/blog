@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'devise'
+
 # Include PostGresSQL code in production
 group :production do 
 	gem 'pg'
