@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 
+  resources :projects
+
+  resources :images
+
   get "/", to: "welcome#index"
   root "welcome#index"
   get "sitemap/index"
@@ -12,7 +16,7 @@ Rails.application.routes.draw do
   get "admin/index"
 
   post "contact", to: 'welcome#contact'
-  post "login", to: 'welcome#login'
+  post "loggedin", to: 'admin#loggedin'
 
 
   # The priority is based upon order of creation: first created -> highest priority.

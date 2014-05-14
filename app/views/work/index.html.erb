@@ -2,3 +2,8 @@
 	<a href="https://github.com/MelanieCrissey/">GitHub</a>
 	<a href="http://www.linkedin.com/in/melaniecrissey">LinkedIn</a>
 </div>
+
+<% @projects.each do | project | %>
+<%= project.name %>
+<%= project.description %>
+<% end %>

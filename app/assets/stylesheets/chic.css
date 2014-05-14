@@ -17,6 +17,7 @@
 
 .nav a, a.tab, .nav a:visited, a.tab:visited {
 		color: #333;
+		padding-bottom: 6px;
 }
 
 .nav a:hover, .tab:hover {

@@ -3,3 +3,8 @@
 <a href="http://instagram.com/melaniecrissey"/>instagram</a>
 </div>
 
+<% @images.each do | image | %>
+<%= image_tag (image.file_name) %>
+<%= image.name %>
+<%= image.description %>
+<% end %>
