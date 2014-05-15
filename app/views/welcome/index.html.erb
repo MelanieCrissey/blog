@@ -1,11 +1,1 @@
-<% if current_user.theme %>
-YOUR THEME: <%= current_user.theme.color %>
-<% end %>
 
-<% if current_user.theme %>
-	<% if current_user.theme.color == ‘red’ %>
-		<style>body {background-color: red;}</style>
-	<% elsif current_user.theme/color == ‘blue’ %>
-		<style> body {background-color: blue;} </style> 
-	<% end %>
-<% end %>
