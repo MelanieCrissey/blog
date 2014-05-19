@@ -44,6 +44,7 @@ div.post {
 	text-align: left;
 	margin-left: auto;
 	margin-right: auto;
+	font-size: 18px;
 
 }
 div.post > a, div.tab-content > a {
@@ -128,7 +129,7 @@ form label, form input {
 	max-width: 600px; 
 	margin-left: auto; 
 	margin-right: auto; 
-	margin-top: 40px;"
+	margin-top: 40px;
 }
 
 img {
