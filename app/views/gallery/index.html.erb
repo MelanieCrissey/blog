@@ -1,5 +1,8 @@
+<div id="gallery-body">
 <% @images.each do | image | %>
 <%= image_tag (image.file_name) %>
-<%= image.name %>
-<%= image.description %>
+	<p class="description">
+ <%= image.name %>
+	</p>
 <% end %>
+</div>
