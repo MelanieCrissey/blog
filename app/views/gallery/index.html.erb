@@ -1,8 +1,9 @@
 <div id="gallery-body">
 <% @images.each do | image | %>
 <%= image_tag image.image.url() %>
-	<p class="description">
- <%= image.name %>
-	</p>
+<%= image.name %>
 <% end %>
+</div>
+<div id="testing">
+<img src="http://s3.amazonaws.com/butterfinger/gate"/>
 </div>
