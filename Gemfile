@@ -2,8 +2,6 @@ source 'https://rubygems.org'
 
 gem 'devise'
 
-gem 'rmagick'
-
 # Include PostGresSQL code in production
 group :production do 
 	gem 'pg'
