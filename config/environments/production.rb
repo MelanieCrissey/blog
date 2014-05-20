@@ -6,8 +6,8 @@ Rails.application.configure do
   :storage => :s3,
   :s3_credentials => {
     :bucket => ENV['butterfinger'],
-    :access_key_id => ENV['AKIAIBYDOJYKJZJSIWBQ'],
-    :secret_access_key => ENV['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']
+    :access_key_id => ENV['AKIAJO3A64BGQNMVU6CA'],
+    :secret_access_key => ENV['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']
   }
 }
 
