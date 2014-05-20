@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'devise'
+gem 'paperclip'
+gem 'aws-sdk'
 
 # Include PostGresSQL code in production
 group :production do 
