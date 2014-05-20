@@ -1,7 +1,9 @@
 <div id="gallery-body">
 <% @images.each do | image | %>
 <%= image_tag image.image.url() %>
+<p class="description">
 <%= image.name %>
+</p>
 <% end %>
 </div>
 
