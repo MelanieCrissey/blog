@@ -102,7 +102,7 @@ ul {
 	h2 {font-size: 20px;}
 	body {max-width: 300px;}
 	div.post {padding: 5px;}
-	.nav li {display: block;}
+	.nav li {display: block; margin-bottom: 10px;}
 	img { max-width: 300px;}
 }
 
@@ -146,4 +146,8 @@ img {
 	text-align: center;
 }
 
+/* hide Typekit badge */ 
+img.typekit-badge {
+	display: none !important;
+}
 
