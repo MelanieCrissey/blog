@@ -73,7 +73,7 @@ h1 {
 h2 {
 	color: #333;
 	font-family: "source-serif-pro", serif;
-	font-size: 24px;
+	font-size: 28px;
 	text-align: center;
 	padding-top: 10px;
 }
@@ -151,3 +151,15 @@ img.typekit-badge {
 	display: none !important;
 }
 
+hr {
+	height: 30px;
+	border-style: solid;
+	border-color: black;
+	border-width: 3px 0 0 0;
+	margin: 30px 0 30px 0;
+}
+
+p.date {
+	text-align: center;
+	font-size: 18px;
+}
