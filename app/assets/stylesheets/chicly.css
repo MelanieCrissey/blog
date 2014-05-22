@@ -89,6 +89,7 @@ h3 {
 	font-size: 30px;
 	text-align: left;
 	line-height: 1.5em;
+	margin-top:-20px
 }
 
 p, label {
@@ -205,4 +206,8 @@ img.round {
  -webkit-border-bottom-right-radius: 100px;
  -moz-border-bottom-right-radius: 100px;
  border-radius: 50%;
+}
+
+li.bullet {
+	list-style-type: disc;
 }
