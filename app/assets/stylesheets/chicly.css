@@ -110,9 +110,10 @@ ul {
 
 /* media queries start here */ 
 
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width : 350px) {
 	h1 {font-size: 36px;}
-	h2 {font-size: 20px;}
+	h2 {font-size: 34px;}
+	h3 {font-size: 28px;}
 	body {max-width: 300px;}
 	div.post {padding: 5px;}
 	.nav li {display: block; margin-bottom: 10px; line-height: 30px;}
