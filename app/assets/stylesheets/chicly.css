@@ -156,6 +156,7 @@ img {
 .description {
 	font-size: 18px;
 	text-align: center;
+	font-family: "source-serif-pro", serif;
 }
 
 /* hide Typekit badge */ 
