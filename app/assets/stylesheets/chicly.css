@@ -32,6 +32,7 @@
 a {
 	text-decoration: none;
 	color: #086CA2;
+	font-weight:bold;
 
 }
 a:visited {
@@ -176,6 +177,7 @@ p.date {
 	color: #333;
 	font-weight: bold;
 	text-transform: uppercase;
+	margin-top:-20px;
 }
 
 .post > p, .post > h3 {
