@@ -92,6 +92,24 @@ h3 {
 	margin-top:-20px
 }
 
+h4 {
+	color: #FF6B40;
+	font-family:"source-serif-pro", serif;
+	font-size:30px;
+	text-align: left;
+	line-height: 1.5em;
+}
+
+.quote {
+	color: #FF6B40;
+	font-family:"source-serif-pro", serif;
+	font-size:30px;
+	text-align: left;
+	line-height: 1.5em;
+	border: 3px solid black;
+	padding: 20px;
+}
+
 p, label {
 	color: #333;
 	font-family: 'Avenir', sans-serif;
@@ -119,6 +137,7 @@ ul {
 	div.post {padding: 5px;}
 	.nav li {display: block; margin-bottom: 10px; line-height: 30px;}
 	img { max-width: 300px;}
+	.frame {max-height:400px;}
 }
 
 /* form styles start here */ 

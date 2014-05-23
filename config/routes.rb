@@ -16,9 +16,14 @@ Rails.application.routes.draw do
   get "work/index"
   get "gallery/index"
   get "admin/index"
+  get "blog/index"
+
+  get "blog/hello"
+  get "blog/confidence"
 
   post "contact", to: 'welcome#contact'
   post "loggedin", to: 'admin#loggedin'
+
 
 
   # The priority is based upon order of creation: first created -> highest priority.
