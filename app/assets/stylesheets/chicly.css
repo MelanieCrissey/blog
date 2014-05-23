@@ -29,6 +29,15 @@
 	padding-bottom: 6px;
 }
 
+.back > a {
+	color: #086CA2;
+	text-transform: uppercase;
+	font-family: 'Avenir', sans-serif;
+	padding-bottom: 40px;
+	display: inline;
+	font-size: 18px;
+}
+
 a {
 	text-decoration: none;
 	color: #086CA2;
@@ -53,6 +62,15 @@ div.post {
 	position:relative;
 
 }
+
+.post > a > h2:hover {
+	color: #086CA2;
+}
+
+.post > a > h2:visited {
+	color: #034569;
+}
+
 div.post > a, div.tab-content > a {
 		display: block;
 		color: #3C9DD0;
