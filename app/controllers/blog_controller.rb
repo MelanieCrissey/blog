@@ -5,4 +5,6 @@ class BlogController < ApplicationController
   end
   def confidence
   end
+  def love
+  end
 end

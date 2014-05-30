@@ -248,3 +248,19 @@ img.round {
 li.bullet {
 	list-style-type: disc;
 }
+
+.center {
+	max-width: 300px;
+	margin-left: auto;
+	margin-right:auto;
+	text-align: center;
+	display:block;
+}
+
+.centerly {
+	max-width: 500px;
+	margin-left: auto;
+	margin-right:auto;
+	text-align: center;
+	display:block;
+}
