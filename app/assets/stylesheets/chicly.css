@@ -119,13 +119,11 @@ h4 {
 }
 
 .quote {
-	color: #FF6B40;
 	font-family:"source-serif-pro", serif;
-	font-size:30px;
 	text-align: left;
-	line-height: 1.5em;
-	border: 3px solid black;
-	padding: 20px;
+	border-left: 3px solid #FF3900;
+	padding-left:20px;
+	margin-left:20px;
 }
 
 p, label {

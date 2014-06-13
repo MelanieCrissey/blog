@@ -7,4 +7,6 @@ class BlogController < ApplicationController
   end
   def love
   end
+  def swear
+  end
 end
