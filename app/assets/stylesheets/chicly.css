@@ -124,6 +124,7 @@ h4 {
 	border-left: 3px solid #FF3900;
 	padding-left:20px;
 	margin-left:20px;
+	max-width: 560px;
 }
 
 p, label {
@@ -154,7 +155,7 @@ ul {
 	.nav li {display: block; margin-bottom: 10px; line-height: 30px;}
 	img { max-width: 300px;}
 	.frame {max-height:400px;}
-	.quote {max-width: 260px;}
+	.quote {max-width: 250px;}
 }
 
 /* form styles start here */ 
