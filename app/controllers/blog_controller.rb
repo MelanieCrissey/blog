@@ -9,4 +9,6 @@ class BlogController < ApplicationController
   end
   def swear
   end
+  def positive
+  end
 end

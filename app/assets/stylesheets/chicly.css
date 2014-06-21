@@ -264,3 +264,8 @@ li.bullet {
 	text-align: center;
 	display:block;
 }
+
+.emoji {
+	width: 20px;
+	margin: 0px 5px -4px;
+	}
