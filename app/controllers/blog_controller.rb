@@ -11,4 +11,6 @@ class BlogController < ApplicationController
   end
   def positive
   end
+  def chicks
+  end
 end

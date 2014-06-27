@@ -23,6 +23,8 @@ Rails.application.routes.draw do
   get "blog/love"
   get "blog/curse"
   get "blog/positive"
+  get "blog/chicks"
+  
 
   post "contact", to: 'welcome#contact'
   post "loggedin", to: 'admin#loggedin'
